@@ -1,0 +1,14 @@
+<launch>
+
+    <!-- This node starts the joystick driver -->
+    <!-- It reads from the device /dev/input/js0 and publishes to the /joy topic -->
+    <node pkg="joy" type="joy_node" name="joy_node">
+        <param name="dev" type="string" value="/dev/input/js0" />
+        <param name="deadzone" value="0.05" />
+    </node>
+
+    <!-- This node starts your Python script -->
+    <!-- It subscribes to the /joy topic and prints the data -->
+    <node pkg="keyence_plc_driver" type="ps4_reader.py" name="ps4_reader" output="screen"/>
+
+</launch>

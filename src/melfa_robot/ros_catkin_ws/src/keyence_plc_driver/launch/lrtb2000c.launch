@@ -1,0 +1,30 @@
+<launch>
+    <!-- Arguments for PLC connection -->
+    <arg name="plc_host" default="192.168.1.10"/>
+    <arg name="plc_port" default="8501"/>
+    
+    <node pkg="joy" type="joy_node" name="joy_node" output="screen">
+        <param name="dev" type="string" value="/dev/input/js0"/>
+        <param name="deadzone" value="0.05"/>
+    </node>
+    
+    <!-- Unified PLC Connection Protocol Driver -->
+    <node pkg="keyence_plc_driver" type="PLCconncectionProtocol.py" name="plc_ethernet_driver" output="screen">
+        <param name="host" value="$(arg plc_host)"/>
+        <param name="port" value="$(arg plc_port)"/>
+    
+        <!-- List of devices to read from (comma-separated string) -->
+        <param name="read_devices" value="R603,R604,R605,MR012,MR013,MR100,MR101,MR102,MR103,MR104,MR105,MR106,MR107,MR206,MR207,MR208,MR209,MR400,MR401,MR402,MR403,MR404,MR405,MR406,MR602,MR603,MR604,MR605,MR606"/>
+    
+        <!-- List of devices to write to (comma-separated string) -->
+        <param name="write_devices" value="R206,MR206,MR207,MR208,MR209,MR210,MR211,MR214,MR400,MR401,MR402,MR403,MR404,MR405,MR406,MR602,MR603,MR604,MR605,MR606"/>
+    </node>
+
+    <!--Monitor GUI Node -->
+    <node pkg="keyence_plc_driver" type="AGV_control.py" name="AGV_control" output="screen"/>
+    
+    <!--Teaching Node -->
+    <node pkg="keyence_plc_driver" type="robot_control.py" name="Robot_control" output="screen"/>  
+      
+
+</launch>

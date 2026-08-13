@@ -1,0 +1,8 @@
+prefix=/root/ros_catkin_ws/install
+
+Name: rv4fl_moveit_config
+Description: Description of rv4fl_moveit_config
+Version: 0.0.4
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,8 @@
+prefix=/root/ros_catkin_ws/devel
+
+Name: melfa_description
+Description: Description of melfa_description
+Version: 0.0.4
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,0 +1,70 @@
+[33m[WARN] [1770869342.261063838]: Couldn't set gain on joystick force feedback: Bad file descriptor[0m
+[ERROR] [1770869349.567901]: Failed to parse PLC response 'b'OK\r\n'': could not convert string to float: 'OK'
+[ERROR] [1770869349.613871]: Failed to write to MR602. Response: 0
+
+[ERROR] [1770869350.722070]: Failed to write to MR604. Response: 0
+
+[ERROR] [1770869350.723867]: Failed to parse PLC response 'b'OK\r\n'': could not convert string to float: 'OK'
+[INFO] [1770869342.412675]: PLC Driver initialized for host: 192.168.1.10
+[INFO] [1770869342.413324]: Read devices: ['R603', 'R604', 'R605', 'MR012', 'MR013', 'MR100', 'MR101', 'MR102', 'MR103', 'MR104', 'MR105', 'MR106', 'MR107', 'MR206', 'MR207', 'MR208', 'MR209', 'MR400', 'MR401', 'MR402', 'MR403', 'MR404', 'MR405', 'MR406', 'MR602', 'MR603', 'MR604', 'MR605', 'MR606']
+[INFO] [1770869342.413740]: Write devices: ['R206', 'MR206', 'MR207', 'MR208', 'MR209', 'MR210', 'MR211', 'MR214', 'MR400', 'MR401', 'MR402', 'MR403', 'MR404', 'MR405', 'MR406', 'MR602', 'MR603', 'MR604', 'MR605', 'MR606']
+[INFO] [1770869342.415499]: PLCSocket: Successfully connected to 192.168.1.10:8501.
+[INFO] [1770869349.562200]: Received write command for MR602 with data 0.
+[INFO] [1770869350.713869]: Received write command for MR603 with data 0.
+[INFO] [1770869350.718727]: Successfully wrote 0 to MR603.
+[INFO] [1770869350.720465]: Received write command for MR604 with data 1.
+[INFO] [1770869435.902528]: PLCSocket: Disconnected.
+[INFO] [1770869342.546866]: Enhanced Teaching Pendant started
+[INFO] [1770869342.674532]: AGV Teaching Control started
+[INFO] [1770869349.558707]: [GUI] Publishing write command: MR602,0
+[INFO] [1770869349.561700]: MR602 toggled: 1.0 -> 0
+[INFO] [1770869350.710529]: [GUI] Publishing write command: MR603,0
+[INFO] [1770869350.713217]: [GUI] Publishing write command: MR604,1
+[0m[INFO] [1770869342.262029541]: Opened joystick: /dev/input/js0 (Sony Interactive Entertainment Wireless Controller). deadzone_: 0.050000.[0m
+... logging to /home/iryuu/.ros/log/9020df7a-07c8-11f1-a912-c512f4383165/roslaunch-iryuu-acer-7124.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;/home/iryuu/ros_catkin_ws/src/keyence_plc_driver/launch/lrtb2000c.launch
+[1mstarted roslaunch server http://iryuu-acer:35657/[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /joy_node/deadzone: 0.05
+ * /joy_node/dev: /dev/input/js0
+ * /plc_ethernet_driver/host: 192.168.1.10
+ * /plc_ethernet_driver/port: 8501
+ * /plc_ethernet_driver/read_devices: R603,R604,R605,MR...
+ * /plc_ethernet_driver/write_devices: R206,MR206,MR207,...
+ * /rosdistro: noetic
+ * /rosversion: 1.17.4
+
+NODES
+  /
+    AGV_control (keyence_plc_driver/AGV_control.py)
+    Robot_control (keyence_plc_driver/robot_control.py)
+    joy_node (joy/joy_node)
+    plc_ethernet_driver (keyence_plc_driver/PLCconncectionProtocol.py)
+
+auto-starting new master
+[1mprocess[master]: started with pid [7133][0m
+[1mROS_MASTER_URI=http://localhost:11311[0m
+]2;/home/iryuu/ros_catkin_ws/src/keyence_plc_driver/launch/lrtb2000c.launch http://localhost:11311
+[1msetting /run_id to 9020df7a-07c8-11f1-a912-c512f4383165[0m
+[1mprocess[rosout-1]: started with pid [7143][0m
+started core service [/rosout]
+[1mprocess[joy_node-2]: started with pid [7150][0m
+[1mprocess[plc_ethernet_driver-3]: started with pid [7151][0m
+[1mprocess[AGV_control-4]: started with pid [7153][0m
+[1mprocess[Robot_control-5]: started with pid [7157][0m
+[Robot_control-5] killing on exit
+[AGV_control-4] killing on exit
+[plc_ethernet_driver-3] killing on exit
+[joy_node-2] killing on exit
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m

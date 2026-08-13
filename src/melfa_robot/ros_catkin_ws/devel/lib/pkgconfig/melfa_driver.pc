@@ -1,0 +1,8 @@
+prefix=/root/ros_catkin_ws/devel
+
+Name: melfa_driver
+Description: Description of melfa_driver
+Version: 0.0.4
+Cflags: -I/root/ros_catkin_ws/src/melfa_robot/melfa_driver/include
+Libs: -L${prefix}/lib 
+Requires: roscpp

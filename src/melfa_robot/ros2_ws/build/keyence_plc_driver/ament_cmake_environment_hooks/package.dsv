@@ -1,0 +1,4 @@
+source;share/keyence_plc_driver/local_setup.bash
+source;share/keyence_plc_driver/local_setup.dsv
+source;share/keyence_plc_driver/local_setup.sh
+source;share/keyence_plc_driver/local_setup.zsh

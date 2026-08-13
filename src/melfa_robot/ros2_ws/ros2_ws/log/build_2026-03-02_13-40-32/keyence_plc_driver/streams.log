@@ -1,0 +1,42 @@
+[0.005s] Invoking command in '/home/iryuu/ros2_ws/build/keyence_plc_driver': /usr/bin/cmake /home/iryuu/ros2_ws/src/keyence_plc_driver -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/iryuu/ros2_ws/install/keyence_plc_driver
+[0.017s] -- Found ament_cmake: 1.3.13 (/opt/ros/humble/share/ament_cmake/cmake)
+[0.155s] -- Found Python3: /usr/bin/python3 (found version "3.10.12") found components: Interpreter 
+[0.207s] -- Found rclpy: 3.3.20 (/opt/ros/humble/share/rclpy/cmake)
+[0.292s] -- Configuring done
+[0.295s] -- Generating done
+[0.295s] -- Build files have been written to: /home/iryuu/ros2_ws/build/keyence_plc_driver
+[0.297s] Invoked command in '/home/iryuu/ros2_ws/build/keyence_plc_driver' returned '0': /usr/bin/cmake /home/iryuu/ros2_ws/src/keyence_plc_driver -DCATKIN_INSTALL_INTO_PREFIX_ROOT=0 -DCMAKE_INSTALL_PREFIX=/home/iryuu/ros2_ws/install/keyence_plc_driver
+[0.299s] Invoking command in '/home/iryuu/ros2_ws/build/keyence_plc_driver': /usr/bin/cmake --build /home/iryuu/ros2_ws/build/keyence_plc_driver -- -j20 -l20
+[0.338s] Built target ament_cmake_python_copy_keyence_plc_ethernet_driver
+[0.473s] running egg_info
+[0.473s] creating keyence_plc_ethernet_driver.egg-info
+[0.473s] writing keyence_plc_ethernet_driver.egg-info/PKG-INFO
+[0.473s] writing dependency_links to keyence_plc_ethernet_driver.egg-info/dependency_links.txt
+[0.473s] writing top-level names to keyence_plc_ethernet_driver.egg-info/top_level.txt
+[0.473s] writing manifest file 'keyence_plc_ethernet_driver.egg-info/SOURCES.txt'
+[0.476s] reading manifest file 'keyence_plc_ethernet_driver.egg-info/SOURCES.txt'
+[0.476s] writing manifest file 'keyence_plc_ethernet_driver.egg-info/SOURCES.txt'
+[0.492s] Built target ament_cmake_python_build_keyence_plc_ethernet_driver_egg
+[0.500s] Invoked command in '/home/iryuu/ros2_ws/build/keyence_plc_driver' returned '0': /usr/bin/cmake --build /home/iryuu/ros2_ws/build/keyence_plc_driver -- -j20 -l20
+[0.506s] Invoking command in '/home/iryuu/ros2_ws/build/keyence_plc_driver': /usr/bin/cmake --install /home/iryuu/ros2_ws/build/keyence_plc_driver
+[0.510s] -- Install configuration: ""
+[0.510s] -- Installing: /home/iryuu/ros2_ws/install/keyence_plc_driver/share/keyence_plc_driver/environment/pythonpath.sh
+[0.510s] -- Installing: /home/iryuu/ros2_ws/install/keyence_plc_driver/share/keyence_plc_driver/environment/pythonpath.dsv
+[0.511s] -- Installing: /home/iryuu/ros2_ws/install/keyence_plc_driver/local/lib/python3.10/dist-packages/keyence_plc_ethernet_driver-0.1.0-py3.10.egg-info
+[0.511s] -- Installing: /home/iryuu/ros2_ws/install/keyence_plc_driver/local/lib/python3.10/dist-packages/keyence_plc_ethernet_driver-0.1.0-py3.10.egg-info/SOURCES.txt
+[0.511s] -- Installing: /home/iryuu/ros2_ws/install/keyence_plc_driver/local/lib/python3.10/dist-packages/keyence_plc_ethernet_driver-0.1.0-py3.10.egg-info/PKG-INFO
+[0.511s] -- Installing: /home/iryuu/ros2_ws/install/keyence_plc_driver/local/lib/python3.10/dist-packages/keyence_plc_ethernet_driver-0.1.0-py3.10.egg-info/dependency_links.txt
+[0.511s] -- Installing: /home/iryuu/ros2_ws/install/keyence_plc_driver/local/lib/python3.10/dist-packages/keyence_plc_ethernet_driver-0.1.0-py3.10.egg-info/top_level.txt
+[0.511s] -- Installing: /home/iryuu/ros2_ws/install/keyence_plc_driver/local/lib/python3.10/dist-packages/keyence_plc_ethernet_driver
+[0.511s] -- Installing: /home/iryuu/ros2_ws/install/keyence_plc_driver/local/lib/python3.10/dist-packages/keyence_plc_ethernet_driver/__init__.py
+[0.511s] -- Installing: /home/iryuu/ros2_ws/install/keyence_plc_driver/local/lib/python3.10/dist-packages/keyence_plc_ethernet_driver/ethernet_driver.py
+[0.534s] Listing '/home/iryuu/ros2_ws/install/keyence_plc_driver/local/lib/python3.10/dist-packages/keyence_plc_ethernet_driver'...
+[0.534s] Compiling '/home/iryuu/ros2_ws/install/keyence_plc_driver/local/lib/python3.10/dist-packages/keyence_plc_ethernet_driver/__init__.py'...
+[0.534s] Compiling '/home/iryuu/ros2_ws/install/keyence_plc_driver/local/lib/python3.10/dist-packages/keyence_plc_ethernet_driver/ethernet_driver.py'...
+[0.536s] [31mCMake Error at cmake_install.cmake:70 (file):
+[0.537s]   file INSTALL cannot find
+[0.537s]   "/home/iryuu/ros2_ws/src/keyence_plc_driver/scripts/lrtb2000c_driver.py":
+[0.537s]   No such file or directory.
+[0.537s] 
+[0.537s] [0m
+[0.538s] Invoked command in '/home/iryuu/ros2_ws/build/keyence_plc_driver' returned '1': /usr/bin/cmake --install /home/iryuu/ros2_ws/build/keyence_plc_driver

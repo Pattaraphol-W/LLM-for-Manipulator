@@ -1,0 +1,51 @@
+{
+  "directions": [
+    {
+      "mr_address": "MR400",
+      "direction": "FORWARD",
+      "duration": 0.8395688533782959
+    },
+    {
+      "mr_address": "MR400",
+      "direction": "FORWARD",
+      "duration": 0.676415205001831
+    },
+    {
+      "mr_address": "MR401",
+      "direction": "FORWARD RIGHT",
+      "duration": 0.656013011932373
+    },
+    {
+      "mr_address": "MR400",
+      "direction": "FORWARD",
+      "duration": 1.7610230445861816
+    },
+    {
+      "mr_address": "MR400",
+      "direction": "FORWARD",
+      "duration": 0.4937319755554199
+    },
+    {
+      "mr_address": "MR402",
+      "direction": "FORWARD LEFT",
+      "duration": 0.5031604766845703
+    },
+    {
+      "mr_address": "MR400",
+      "direction": "FORWARD",
+      "duration": 0.5800442695617676
+    },
+    {
+      "mr_address": "MR403",
+      "direction": "BACKWARD",
+      "duration": 0.7179882526397705
+    },
+    {
+      "mr_address": "MR400",
+      "direction": "FORWARD",
+      "duration": 0.9854850769042969
+    }
+  ],
+  "version": "1.0",
+  "timestamp": "2026-01-06 10:32:44"
+}

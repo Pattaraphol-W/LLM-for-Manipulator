@@ -1,0 +1,112 @@
+xacro: in-order processing became default in ROS Melodic. You can drop the option.
+[33m[WARN] [1770870846.722969868]: Failed to receive packet.[0m
+[33m[WARN] [1770870847.591360229]: Failed to receive packet.[0m
+[33m[WARN] [1770870848.386507576]: Failed to receive packet.[0m
+[33m[WARN] [1770870854.438606390]: Failed to receive packet.[0m
+[33m[WARN] [1770870875.387547316]: Failed to receive packet.[0m
+[33m[WARN] [1770870875.402062039]: Failed to receive packet.[0m
+[33m[WARN] [1770870875.416624901]: Failed to receive packet.[0m
+[33m[WARN] [1770870895.882949899]: Failed to receive packet.[0m
+[33m[WARN] [1770870895.933425873]: Failed to receive packet.[0m
+[33m[WARN] [1770870898.755927991]: Failed to receive packet.[0m
+[33m[WARN] [1770870900.106436541]: Failed to receive packet.[0m
+[33m[WARN] [1770870900.960199896]: Failed to receive packet.[0m
+[33m[WARN] [1770870901.031540466]: Failed to receive packet.[0m
+[31m[ERROR] [1770870906.140436460]: Cannot receive packet[0m
+[33m[WARN] [1770870906.140490730]: Failed to receive packet.[0m
+[WARN] [1770870906.303421]: Controller Spawner error while taking down controllers: unable to connect to service: [Errno 104] Connection reset by peer
+[INFO] [1770870846.351915]: Controller Spawner: Waiting for service controller_manager/load_controller
+[INFO] [1770870846.356196]: Controller Spawner: Waiting for service controller_manager/switch_controller
+[INFO] [1770870846.358753]: Controller Spawner: Waiting for service controller_manager/unload_controller
+[INFO] [1770870846.360975]: Loading controller: joint_state_controller
+[INFO] [1770870846.374906]: Loading controller: joint_trajectory_controller
+[INFO] [1770870846.403467]: Controller Spawner: Loaded controllers: joint_state_controller, joint_trajectory_controller
+[INFO] [1770870846.409505]: Started controllers: joint_state_controller, joint_trajectory_controller
+[INFO] [1770870906.140504]: Shutting down spawner. Stopping and unloading controllers...
+[INFO] [1770870906.142065]: Stopping all controllers...
+... logging to /home/iryuu/.ros/log/107584ca-07cc-11f1-a912-c512f4383165/roslaunch-iryuu-acer-8175.log
+Checking log directory for disk usage. This may take a while.
+Press Ctrl-C to interrupt
+Done checking log file disk usage. Usage is <1GB.
+]2;/home/iryuu/ros_catkin_ws/src/melfa_robot/melfa_driver/launch/melfa_driver.launch
+[1mstarted roslaunch server http://iryuu-acer:39551/[0m
+
+SUMMARY
+========
+
+PARAMETERS
+ * /joint1_position_controller/base_frame_id: base_link
+ * /joint1_position_controller/joint: joint1
+ * /joint1_position_controller/publish_rate: 50
+ * /joint1_position_controller/type: position_controll...
+ * /joint2_position_controller/base_frame_id: base_link
+ * /joint2_position_controller/joint: joint2
+ * /joint2_position_controller/publish_rate: 50
+ * /joint2_position_controller/type: position_controll...
+ * /joint3_position_controller/base_frame_id: base_link
+ * /joint3_position_controller/joint: joint3
+ * /joint3_position_controller/publish_rate: 50
+ * /joint3_position_controller/type: position_controll...
+ * /joint4_position_controller/base_frame_id: base_link
+ * /joint4_position_controller/joint: joint4
+ * /joint4_position_controller/publish_rate: 50
+ * /joint4_position_controller/type: position_controll...
+ * /joint5_position_controller/base_frame_id: base_link
+ * /joint5_position_controller/joint: joint5
+ * /joint5_position_controller/publish_rate: 50
+ * /joint5_position_controller/type: position_controll...
+ * /joint6_position_controller/base_frame_id: base_link
+ * /joint6_position_controller/joint: joint6
+ * /joint6_position_controller/publish_rate: 50
+ * /joint6_position_controller/type: position_controll...
+ * /joint_state_controller/publish_rate: 50
+ * /joint_state_controller/type: joint_state_contr...
+ * /joint_trajectory_controller/action_monitor_rate: 20
+ * /joint_trajectory_controller/constraints/goal_time: 2.0
+ * /joint_trajectory_controller/constraints/joint1/goal: 0.2
+ * /joint_trajectory_controller/constraints/joint1/trajectory: 0
+ * /joint_trajectory_controller/constraints/joint2/goal: 0.2
+ * /joint_trajectory_controller/constraints/joint2/trajectory: 0
+ * /joint_trajectory_controller/constraints/joint3/goal: 0.2
+ * /joint_trajectory_controller/constraints/joint3/trajectory: 0
+ * /joint_trajectory_controller/constraints/joint4/goal: 0.2
+ * /joint_trajectory_controller/constraints/joint4/trajectory: 0
+ * /joint_trajectory_controller/constraints/joint5/goal: 0.2
+ * /joint_trajectory_controller/constraints/joint5/trajectory: 0
+ * /joint_trajectory_controller/constraints/joint6/goal: 0.2
+ * /joint_trajectory_controller/constraints/joint6/trajectory: 0
+ * /joint_trajectory_controller/constraints/stopped_velocity_tolerance: 0.1
+ * /joint_trajectory_controller/joints: ['joint1', 'joint...
+ * /joint_trajectory_controller/state_publish_rate: 50
+ * /joint_trajectory_controller/type: position_controll...
+ * /melfa_driver/period: 0.0071
+ * /melfa_driver/realtime: False
+ * /melfa_driver/robot_ip: 192.168.1.40
+ * /robot_description: <?xml version="1....
+ * /rosdistro: noetic
+ * /rosversion: 1.17.4
+
+NODES
+  /
+    controller_spawner (controller_manager/spawner)
+    melfa_driver (melfa_driver/melfa_driver_node)
+    robot_state_publisher (robot_state_publisher/robot_state_publisher)
+
+auto-starting new master
+[1mprocess[master]: started with pid [8186][0m
+[1mROS_MASTER_URI=http://localhost:11311[0m
+]2;/home/iryuu/ros_catkin_ws/src/melfa_robot/melfa_driver/launch/melfa_driver.launch http://localhost:11311
+[1msetting /run_id to 107584ca-07cc-11f1-a912-c512f4383165[0m
+[1mprocess[rosout-1]: started with pid [8196][0m
+started core service [/rosout]
+[1mprocess[melfa_driver-2]: started with pid [8203][0m
+[1mprocess[controller_spawner-3]: started with pid [8204][0m
+[1mprocess[robot_state_publisher-4]: started with pid [8205][0m
+[robot_state_publisher-4] killing on exit
+[controller_spawner-3] killing on exit
+[melfa_driver-2] killing on exit
+[rosout-1] killing on exit
+[master] killing on exit
+shutting down processing monitor...
+... shutting down processing monitor complete
+[1mdone[0m

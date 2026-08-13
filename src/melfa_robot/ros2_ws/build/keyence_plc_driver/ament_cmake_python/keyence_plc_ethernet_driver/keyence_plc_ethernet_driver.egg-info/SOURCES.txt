@@ -1,0 +1,7 @@
+setup.py
+keyence_plc_ethernet_driver/__init__.py
+keyence_plc_ethernet_driver/ethernet_driver.py
+keyence_plc_ethernet_driver.egg-info/PKG-INFO
+keyence_plc_ethernet_driver.egg-info/SOURCES.txt
+keyence_plc_ethernet_driver.egg-info/dependency_links.txt
+keyence_plc_ethernet_driver.egg-info/top_level.txt

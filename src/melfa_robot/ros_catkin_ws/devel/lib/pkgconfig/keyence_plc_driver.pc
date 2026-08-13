@@ -1,0 +1,8 @@
+prefix=/root/ros_catkin_ws/devel
+
+Name: keyence_plc_driver
+Description: Description of keyence_plc_driver
+Version: 0.1.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

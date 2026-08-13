@@ -1,0 +1,17 @@
+<?xml version="1.0"?>
+<?xml-model href="http://download.ros.org/schema/package_format3.xsd" schematypens="http://www.w3.org/2001/XMLSchema"?>
+<package format="3">
+  <name>keyence_plc_driver</name>
+  <version>0.1.0</version>
+  <description>A ROS 2 driver for Keyence PLCs using Ethernet (Python).</description>
+  <maintainer email="yuokamoto1988@gmail.com">yu</maintainer>
+  <license>MIT</license>
+
+  <buildtool_depend>ament_cmake</buildtool_depend>
+  <buildtool_depend>ament_cmake_python</buildtool_depend>
+
+  <depend>rclpy</depend>
+  <export>
+    <build_type>ament_cmake</build_type>
+  </export>
+</package>

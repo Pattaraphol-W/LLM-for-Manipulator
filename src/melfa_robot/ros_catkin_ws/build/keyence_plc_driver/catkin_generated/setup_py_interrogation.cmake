@@ -1,0 +1,7 @@
+set(keyence_plc_driver_SETUP_PY_SETUP_MODULE "distutils.core")
+set(keyence_plc_driver_SETUP_PY_VERSION "0.1.0")
+set(keyence_plc_driver_SETUP_PY_SCRIPTS "")
+set(keyence_plc_driver_SETUP_PY_PACKAGES "keyence_plc_ethernet_driver")
+set(keyence_plc_driver_SETUP_PY_PACKAGE_DIRS "src/keyence_plc_ethernet_driver")
+set(keyence_plc_driver_SETUP_PY_MODULES "")
+set(keyence_plc_driver_SETUP_PY_MODULE_DIRS "")

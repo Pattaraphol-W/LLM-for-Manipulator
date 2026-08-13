@@ -1,0 +1,2 @@
+keyence_plc_driver:melfa_robot/melfa_description:melfa_robot/melfa_driver:melfa_robot/melfa_robot:melfa_robot/rv4fl_moveit_config:melfa_robot/rv7fl_moveit_config
+-DCATKIN_DEVEL_PREFIX=/root/ros_catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/root/ros_catkin_ws/install -G Unix Makefiles

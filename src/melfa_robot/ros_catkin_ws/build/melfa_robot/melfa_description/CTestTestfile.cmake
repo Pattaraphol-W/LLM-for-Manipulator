@@ -1,0 +1,8 @@
+# CMake generated Testfile for 
+# Source directory: /root/ros_catkin_ws/src/melfa_robot/melfa_description
+# Build directory: /root/ros_catkin_ws/build/melfa_robot/melfa_description
+# 
+# This file includes the relevant testing commands required for 
+# testing this directory and lists subdirectories to be tested as well.
+add_test(_ctest_melfa_description_roslaunch-check__root_ros_catkin_ws_src_melfa_robot_melfa_description_launch_rviz.launch "/root/ros_catkin_ws/build/catkin_generated/env_cached.sh" "/usr/bin/python3" "/opt/ros/noetic/share/catkin/cmake/test/run_tests.py" "/root/ros_catkin_ws/build/test_results/melfa_description/roslaunch-check__root_ros_catkin_ws_src_melfa_robot_melfa_description_launch_rviz.launch.xml" "--return-code" "/usr/bin/cmake -E make_directory /root/ros_catkin_ws/build/test_results/melfa_description" "/opt/ros/noetic/share/roslaunch/cmake/../scripts/roslaunch-check -o \"/root/ros_catkin_ws/build/test_results/melfa_description/roslaunch-check__root_ros_catkin_ws_src_melfa_robot_melfa_description_launch_rviz.launch.xml\" \"/root/ros_catkin_ws/src/melfa_robot/melfa_description/launch/rviz.launch\" ")
+set_tests_properties(_ctest_melfa_description_roslaunch-check__root_ros_catkin_ws_src_melfa_robot_melfa_description_launch_rviz.launch PROPERTIES  _BACKTRACE_TRIPLES "/opt/ros/noetic/share/catkin/cmake/test/tests.cmake;160;add_test;/opt/ros/noetic/share/roslaunch/cmake/roslaunch-extras.cmake;66;catkin_run_tests_target;/root/ros_catkin_ws/src/melfa_robot/melfa_description/CMakeLists.txt;28;roslaunch_add_file_check;/root/ros_catkin_ws/src/melfa_robot/melfa_description/CMakeLists.txt;0;")
