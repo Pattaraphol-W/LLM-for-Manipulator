@@ -1,0 +1,26 @@
+# ROS2 (colcon)
+build/
+install/
+log/
+
+# ROS1 (catkin)
+devel/
+
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+
+# OS
+.DS_Store
+
+# Editor
+.vscode/
+
+# Claude Code local settings (machine-specific)
+.claude/settings.local.json
+
+# Misc binary/log clutter
+*.deb
+*.log
