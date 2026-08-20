@@ -1,16 +1,23 @@
 {
-  "scene": "A stuffed toy cat sitting on a rug, with a red book resting on top of it.",
-  "source": "operator ground truth, confirmed by eye",
+  "scene": "A stuffed toy cat behind a shaggy grey-and-white mop head, on a dark cluttered desk. A red-and-white object (book/box) sits above the cat; a desk lamp is upper right; a dark bottle stands at the left edge.",
+  "source": "the actual captured frame (captured_frame.jpg), not the operator's recollection",
+  "image_stats": {
+    "resolution": "640x480",
+    "mean_luma": 56.6,
+    "pct_pixels_below_32": 64,
+    "note": "Two thirds of the frame is near-black. The subject is small, off-centre and low-contrast."
+  },
   "elements": {
-    "cat":       {"any_of": ["cat", "kitten", "feline"],                 "note": "the subject"},
-    "is_toy":    {"any_of": ["stuffed", "plush", "toy", "figurine"],     "note": "it is NOT a live animal"},
-    "rug":       {"any_of": ["rug", "carpet"],                           "note": "what it sits on"},
-    "book":      {"any_of": ["book"],                                    "note": "the object on top"},
-    "red":       {"any_of": ["red"],                                     "note": "colour of the book"}
+    "cat":        {"any_of": ["cat", "kitten", "feline"],   "note": "the subject"},
+    "is_toy":     {"any_of": ["stuffed", "plush", "toy", "figurine"], "note": "it is NOT a live animal"},
+    "shaggy":     {"any_of": ["rug", "carpet", "towel", "cushion", "cloth", "mop", "shaggy", "fluffy"],
+                   "note": "the shaggy mop head -- ANY of these is a fair reading"},
+    "red":        {"any_of": ["red"],    "note": "the red object above the cat"},
+    "bottle":     {"any_of": ["bottle"], "note": "really is a bottle at the left edge"},
+    "dark":       {"any_of": ["dark", "dimly", "black background", "blur"], "note": "the frame is 64% near-black"}
   },
   "hallucination_markers": [
-    "helmet", "skateboard", "scooter", "shoe box", "harness", "spray paint",
-    "hat", "bowl", "bottle", "towel", "cushion", "chair"
+    "helmet", "skateboard", "scooter", "shoe box", "harness", "spray paint", "chair", "bowl"
   ],
-  "hallucination_note": "Objects that cannot plausibly be in a scene of cat+rug+book. Surfaces (table, desk, wall) are excluded as plausible context, so this is a conservative count."
+  "hallucination_note": "Specific object claims with no matching object in frame. These are misidentifications of real but indistinct dark shapes rather than inventions from nothing. Items previously on this list -- bottle, towel, cushion -- were REMOVED after inspecting the frame: they are correct."
 }

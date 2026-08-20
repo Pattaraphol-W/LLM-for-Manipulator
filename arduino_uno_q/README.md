@@ -166,9 +166,17 @@ camera also advertises no 512×384 mode, so the wrapper requests 640×480.
 ## 7b. Output quality
 
 Speed is only half the story. A 20-run repeatability test on a single unchanging scene found
-**0/20 complete descriptions**, **17/20 runs inventing objects that were not present**, and
-pairwise agreement between runs of **0.12** — while latency stayed stable to ±1.3 s. The most
-distinctive object in the scene (a red book) was reported in 1 of 20 runs.
+pairwise agreement between runs of **0.12** — successive descriptions of one identical image
+share about an eighth of their content words — while latency stayed stable to ±1.3 s.
+
+The model reliably reports texture and colour (shaggy object 70%, something red 55%, dark
+scene 60%) but attaches a different noun to the red object nearly every run. Its one
+consistent failure is **alive vs. toy**: 18/20 runs describe a live animal when the subject is
+a plush toy — exactly the error that matters for a robot.
+
+Note that the frame was 64% near-black, so the scene shares the blame; and an initial version
+of that analysis scored the model against the operator's *recollection* rather than the
+captured frame, which inflated the hallucination rate roughly twofold.
 
 Full data, evaluator and analysis: [`experiments/2026-08-20-static-scene`](../experiments/2026-08-20-static-scene/).
 
