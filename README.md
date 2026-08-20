@@ -7,6 +7,7 @@ Research project integrating LLMs with a MELFA robot manipulator.
 - `src/` — ROS2 packages and source code
   - `src/melfa_robot/` — inherited manipulator control stack (originally from [Nattapol-M/melfa_robot](https://github.com/Nattapol-M/melfa_robot))
 - `arduino_uno_q/` — on-device vision-language model on an Arduino UNO Q (see [its README](arduino_uno_q/README.md))
+- `experiments/` — measurements and evaluations with raw data and runnable evaluators (see [experiments/README.md](experiments/README.md))
 - `docs/` — project notes and write-ups (see [docs/README.md](docs/README.md))
 
 ## Setup

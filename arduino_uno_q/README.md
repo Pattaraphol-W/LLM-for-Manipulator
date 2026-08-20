@@ -163,6 +163,15 @@ compresses to about the same size as a real one (11,805 vs 10,067 bytes). Bright
 plugging in a USB webcam renumbered the codec to `video2/3` and took `video0` itself. The
 camera also advertises no 512×384 mode, so the wrapper requests 640×480.
 
+## 7b. Output quality
+
+Speed is only half the story. A 20-run repeatability test on a single unchanging scene found
+**0/20 complete descriptions**, **17/20 runs inventing objects that were not present**, and
+pairwise agreement between runs of **0.12** — while latency stayed stable to ±1.3 s. The most
+distinctive object in the scene (a red book) was reported in 1 of 20 runs.
+
+Full data, evaluator and analysis: [`experiments/2026-08-20-static-scene`](../experiments/2026-08-20-static-scene/).
+
 ## 8. Conclusions
 
 **It works, and it is far too slow to be a live perception system.** At ~50 s/frame — with

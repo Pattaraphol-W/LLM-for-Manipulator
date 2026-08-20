@@ -1,0 +1,62 @@
+loading model: /home/arduino/models/SmolVLM2-500M-Video-Instruct-Q8_0.gguf
+model ready in 851ms
+
+[16:36:46]  A person's hand holding a small, white stuffed animal is seen in the foreground of the image, with a large red and white book in the background. The book, which appears to be a children's book, is titled "360 Degree Adventure." The book's cover is red, and the title is written in white text. The book is positioned slightly above the person's hand, and the person's hand is reaching out towards the book, as if they are about to open it. The scene suggests a playful and curious interaction between the person and the stuffed animal, with the book serving as a focal point in the background.
+  (58.115s)
+
+[16:37:52]  In the center of a cluttered desk, a white and black cat has found a cozy perch on a white and gray patterned rug. The rug, partially covered by the cat's head, adds a touch of whimsy to the scene. The cat, with its curious eyes and fluffy coat, appears to be peeking out from behind the rug, as if daring someone to try to take it away. The background is a dark room, which contrasts with the bright and colorful items scattered around, including a red and black helmet on top of the desk and a bottle of water on the desk. The overall image conveys a sense of curiosity and
+  (57.555s)
+
+[16:38:57]  In the image, a white and black kitten with a pink nose is peeking out from under a black and red skateboard. The skateboard, with its vibrant colors, is situated on a black table. The kitten, looking up at the camera with a curious expression, seems to be in a playful mood. The background is dark and blurry, which adds a sense of depth and mystery to the scene. The image captures a moment of playfulness and curiosity between the kitten and its skateboard.
+  (54.257s)
+
+[16:39:59]  In the center of the image, a white kitten with black spots is perched on a gray and white rug. The kitten is facing the camera, giving a playful and curious expression. It is perched on top of a black object, which appears to be a skateboard or a similar board. The background of the image is dark and out of focus, creating a sense of depth and depth. The focus is on the kitten and the object it's perched on, with the skateboard providing a sense of movement and action. The overall composition of the image suggests a playful and curious moment captured in time.
+  (57.13s)
+
+[16:41:04]  The image captures a moment of curiosity and playfulness. At the center of the scene is a white kitten, its fur a striking contrast to the dark background. The kitten, positioned on a white and black striped surface, seems to be peering over a black and white striped chair. The chair, which is also white, adds a touch of color to the scene. The backdrop is a dark, nondescript wall, creating a stark contrast with the bright colors of the kitten and chair. This contrast serves to highlight the kitten's adorable and curious nature, as it seems to be examining its surroundings. In the top
+  (58.144s)
+
+[16:42:10]  In the image, a white and black cat is perched on a black table, looking directly at the camera. The table is adorned with a white and gray striped cloth, adding a touch of whimsy to the scene. In the background, a red and white scooter is partially visible, adding a pop of color to the otherwise monochrome setting. The cat's fluffy tail is also visible, adding to the overall charm of the image.
+  (54.182s)
+
+[16:43:12]  In the center of the frame, a white kitten with a black nose and paws is perched on a gray and white striped rug. The kitten is looking up at the camera with wide, curious eyes, its tail curled around its body in a playful manner. The background is a blur of black and gray, suggesting a dark room with some indistinct objects scattered around. The kitten is the main focus of the image, its attention drawn to the camera. The image does not contain any discernible text or other objects. The relative position of the kitten to the rug and the background is such that the kitten is the central object of interest,
+  (57.944s)
+
+[16:44:17]  In this captivating image, a white and black cat with a curious expression is perched on a black surface, seemingly unaware of the camera capturing it. The cat's head is visible, with its eyes fixed on the camera, adding a sense of intrigue to the scene. The surface it's perched on is a white and black rug, providing a stark contrast to the cat's fur. In the background, a red and white helmet is partially visible, hinting at the presence of an object that the cat might have seen or been attracted to. The image is taken from a low angle, making the cat appear larger and more imposing.
+  (57.953s)
+
+[16:45:23]  In the heart of a dimly lit room, a white and black cat, its fur a playful mix of white and black, sits comfortably atop a pile of white towels, which it has draped over its head like a cape. The cat gazes directly into the camera, its small eyes wide and inquisitive, as if caught off guard by a sudden intrusion. The towels, stacked haphazardly on the cat's head, form an intriguing backdrop against the dark background. The overall image is a delightful juxtaposition of the cat's playful curiosity and the serene, everyday setting.
+  (57.049s)
+
+[16:46:28]  In the heart of a cluttered room, a white and black cat, with a curious expression, is captured in the act of peeing on a white and grey towel. The cat's small paws are positioned on the towel, ready to pounce on its unsuspecting victim. The towel, a symbol of cleanliness and order, lies casually on the floor, offering a stark contrast to the cat's curious nature. The room around them is filled with an assortment of objects, each with its own story to tell. On the left side of the frame, a black helmet rests, its glossy surface reflecting the dim light. Nearby,
+  (58.334s)
+
+[16:47:34]  A white and black cat is peeking out of a black and red shoe box. The cat has its face close to the camera, and the shoe box is placed on a table. The cat's eyes are wide open, and its whiskers are sticking out. A white and black cat is peeking out of a black and red shoe box. The cat's face is close to the camera, and the shoe box is placed on a table. The cat's eyes are wide open, and its whiskers are sticking out. A black and red shoe box is placed on a table.
+  (56.571s)
+
+[16:48:38]  In the image, a white and black kitten is the star of the scene. It's perched on a black and white striped rug, its small body comfortably nestled in the center. The kitten's eyes are wide open, seemingly ready to pounce at any moment. It's not alone; a red and white helmet, worn by another cat, is positioned in the background, partially obscured by the kitten's body. The scene is set in a room filled with various objects, including a water bottle and a bottle cap, suggesting a cozy and playful setting. The kitten's curious expression and the presence of the helmet add to the whimsical atmosphere.
+  (57.94s)
+
+[16:49:44]  A white and black cat with a pink nose is perched on a white and gray shaggy carpet, looking out at the camera with a curious expression. The cat is perched on top of a red and black skateboard, which is positioned prominently in the image, with the skateboard's wheels visible. The cat's fur is mostly white with some black patches on its head and back, and its pink nose is prominently displayed. The background is dark, with only a few light sources visible, likely from the surrounding furniture. The scene is captured from a low angle, making the cat appear larger and more imposing.
+  (57.229s)
+
+[16:50:49]  In the center of the image, a white kitten with a black nose is perched on a white and gray striped cloth. The kitten's paws are gently grasping the cloth, its face turned towards the camera, and it seems to be looking up at the viewer. The background of the image is a dark, nondescript setting that is difficult to discern. The kitten is positioned in such a way that it appears to be in mid-air, as if it has just launched off the cloth. The cloth itself is not entirely flat, but is slightly curled at the edges, adding to the kitten's playful and whimsical appearance.
+  (58.22s)
+
+[16:51:55]  In this image, we see a white and black kitten, positioned on a table and looking down at us, seemingly curious about our presence. The table, made of wood, is situated in a room with dark surroundings. On it, there are a few objects including a bottle, a bowl, a bowl, and a bottle. The kitten is the main subject of this image, and it's positioned in the center, with its body slightly tilted to the left. The kitten's face is partially obscured by the bottle, but it's clear that it's looking up at us. The overall scene suggests a playful and curious mood. The image
+  (57.874s)
+
+[16:53:00]  In the center of the image, a white and black cat is perched atop a black and white striped object. The cat's face is prominently displayed, its fluffy fur contrasting with its dark eyes. The object, which appears to be a piece of furniture, is adorned with a red and white striped hat, adding a pop of color to the scene. The background is a blur of black and gray, suggesting a dark, possibly indoor setting. In the upper left corner of the image, there's a bottle of water, perhaps indicating the location's climate. The image captures a moment of curiosity and playfulness, as the cat seems
+  (57.409s)
+
+[16:54:06]  In this image, a curious black and white kitten is perched on top of a white and gray striped towel, its face glistening with wetness. The kitten's curious gaze is directed towards the camera, as if it's caught off guard. The towel, with its contrasting colors and stripes, seems to be its stage, as it's held aloft by the kitten's paws, which are adorned with a few black spots. The background of the image is a blur, suggesting a room where the kitten is the sole focus. However, there are hints of other objects in the background, such as a bottle on the table
+  (57.778s)
+
+[16:55:11]  A white and black cat is perched on top of a white and black striped cushion, seemingly looking down at the camera. The cushion, which is made of a soft material, is resting on a black desk, which is positioned in front of a white wall. In the background, there are a few other items on the desk, including a water bottle and a bottle of spray paint. The overall scene suggests a moment of curiosity or playfulness between the cat and the camera.
+  (54.059s)
+
+[16:56:13]  In this image, a white and black cat is hiding behind a large black and red hat, which is securely fastened to a wooden shelf. The cat is peeking out from behind the hat, its eyes wide and curious. The scene is set against a black background, which makes the cat and its hat stand out. The hat is positioned slightly to the left of the cat, and the cat appears to be looking directly at the camera. The image does not contain any text or other discernible objects. The relative positions of the cat and hat suggest that the cat is looking up at the hat, which is positioned above it. The cat
+  (57.744s)
+
+[16:57:18]  The image features a white kitten with black spots standing on a fluffy white and gray cat toy. The kitten is peeking out from behind the toy, which appears to be a plush toy designed for pets. The toy has a red and white design on its back and is placed on a black table or surface. In the background, there is a black and red cat harness or harness, suggesting that this could be a cat's bed or a place for the cat to rest. Additionally, there are several bottles placed on the table, likely containing water or some other liquid. The bottles are positioned close to each other and appear to
+  (57.942s)

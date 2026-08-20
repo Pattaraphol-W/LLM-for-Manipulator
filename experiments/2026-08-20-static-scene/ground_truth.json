@@ -1,0 +1,16 @@
+{
+  "scene": "A stuffed toy cat sitting on a rug, with a red book resting on top of it.",
+  "source": "operator ground truth, confirmed by eye",
+  "elements": {
+    "cat":       {"any_of": ["cat", "kitten", "feline"],                 "note": "the subject"},
+    "is_toy":    {"any_of": ["stuffed", "plush", "toy", "figurine"],     "note": "it is NOT a live animal"},
+    "rug":       {"any_of": ["rug", "carpet"],                           "note": "what it sits on"},
+    "book":      {"any_of": ["book"],                                    "note": "the object on top"},
+    "red":       {"any_of": ["red"],                                     "note": "colour of the book"}
+  },
+  "hallucination_markers": [
+    "helmet", "skateboard", "scooter", "shoe box", "harness", "spray paint",
+    "hat", "bowl", "bottle", "towel", "cushion", "chair"
+  ],
+  "hallucination_note": "Objects that cannot plausibly be in a scene of cat+rug+book. Surfaces (table, desk, wall) are excluded as plausible context, so this is a conservative count."
+}
