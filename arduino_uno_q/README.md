@@ -58,7 +58,28 @@ so descriptions are independent rather than conditioned on previous frames.
 ~/arduino_uno_q/run_vlm.sh -1              # one frame from the webcam
 ~/arduino_uno_q/run_vlm.sh -interval 5s    # continuous loop
 ~/arduino_uno_q/run_vlm.sh -image foo.jpg -1   # static image, no camera
+
+# with the live web UI, then browse to http://<board-ip>:8080
+~/arduino_uno_q/run_vlm.sh -serve :8080 -interval 5s
 ```
+
+### Seeing what the model sees
+
+`-serve` starts a small HTTP server (Go stdlib, no dependencies) inside the same process. The
+page shows **the exact JPEG handed to the model**, the description streaming in token by
+token, and the live mean-luma reading with a warning when a frame is too dark. Endpoints are
+`/` (page), `/frame.jpg` (raw frame) and `/api` (JSON state); the browser polls `/api` and
+reloads the image when the frame counter changes.
+
+This exists because the board is headless — `card0-DP-1` is disconnected, and installing an
+image viewer would need both sudo and a working network. A browser on any device on the same
+network needs neither.
+
+Useful when adjusting lighting: the luma figure updates live, which is far quicker than
+capture → copy → look → repeat.
+
+**There is no authentication.** Anyone on the same network can view the feed. Fine on a desk,
+not on a shared or public network.
 
 From a laptop: `./stage.sh` fetches libraries + models and cross-compiles; `./deploy_adb.sh`
 pushes over USB, or plain `scp` over the network.
@@ -204,7 +225,7 @@ Fifty seconds is entirely acceptable for a question asked once per task. It is u
 
 | File | Runs on | Purpose |
 |---|---|---|
-| `vlmcam/` | laptop → board | The Go program (source; cross-compiled to arm64) |
+| `vlmcam/` | laptop → board | The Go program (source; cross-compiled to arm64). `server.go` is the optional live web UI. |
 | `run_vlm.sh` | board | Wrapper: sets `YZMA_LIB`, model paths, 640×480 capture |
 | `stage.sh` | laptop | Downloads libs + models + static ffmpeg, cross-compiles |
 | `deploy_adb.sh` | laptop | Pushes to the board over USB (ADB); `--check` reports state |

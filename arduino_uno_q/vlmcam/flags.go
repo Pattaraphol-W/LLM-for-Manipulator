@@ -38,6 +38,7 @@ var (
 	gpuLayers   *int
 	visionGPU   *bool
 	imgMaxTok   *int
+	serveAddr   *string
 	predictSize *int
 )
 
@@ -83,6 +84,7 @@ func handleFlags() error {
 	gpuLayers = flag.Int("gpu-layers", 0, "LLM layers to offload to GPU (needs a Vulkan YZMA_LIB)")
 	visionGPU = flag.Bool("vision-gpu", false, "run the vision encoder on the GPU too (crashes Adreno A702)")
 	imgMaxTok = flag.Int("image-max-tokens", 0, "cap image tokens (0 = model default); fewer tokens = faster")
+	serveAddr = flag.String("serve", "", "serve a live web UI on this address, e.g. :8080")
 	predictSize = flag.Int("n", 128, "max tokens per description (<=0 for unlimited)")
 
 	flag.Parse()

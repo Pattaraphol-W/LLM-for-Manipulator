@@ -141,6 +141,11 @@ func main() {
 
 	fmt.Printf("model ready in %s\n", time.Since(loadStart).Round(time.Millisecond))
 
+	if *serveAddr != "" {
+		serve(*serveAddr)
+		live.setStatus("waiting for first frame")
+	}
+
 	// Ctrl-C should unwind through the defers above so the native allocations
 	// are released, rather than dropping out of the loop mid-decode.
 	stop := make(chan os.Signal, 1)
@@ -167,12 +172,20 @@ func main() {
 			continue
 		}
 
+		if *serveAddr != "" {
+			luma, _ := meanLuma(frame)
+			live.newFrame(frame, luma)
+		}
+
 		fmt.Printf("\n[%s] ", time.Now().Format("15:04:05"))
 		start := time.Now()
 		if err := describe(frame); err != nil {
 			fmt.Fprintln(os.Stderr, "inference failed:", err)
 		}
 		fmt.Printf("\n  (%s)\n", time.Since(start).Round(time.Millisecond))
+		if *serveAddr != "" {
+			live.done(time.Since(start).Seconds())
+		}
 
 		if *once {
 			break
@@ -340,7 +353,11 @@ func describe(image string) error {
 		}
 
 		l := llama.TokenToPiece(vocab, token, buf, 0, true)
-		fmt.Print(string(buf[:l]))
+		piece := string(buf[:l])
+		fmt.Print(piece)
+		if *serveAddr != "" {
+			live.appendToken(piece)
+		}
 
 		batch := llama.BatchGetOne([]llama.Token{token})
 		batch.Pos = &n
